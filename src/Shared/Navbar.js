@@ -21,7 +21,7 @@ const Navbar = () => {
                         {manuitem}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">PRITOM DAS</a>
+                <a class="btn btn-ghost text-white normal-case text-xl">PRITOM DAS</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
