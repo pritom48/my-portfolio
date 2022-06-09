@@ -8,7 +8,7 @@ import Navbar from './Shared/Navbar';
 
 function App() {
   return (
-    <div className='px-0.5 bg-slate-700'>
+    <div className='px-0.5 bg-slate-900'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

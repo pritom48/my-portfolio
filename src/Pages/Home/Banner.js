@@ -3,7 +3,7 @@ import mypic from '../../img/mypic.png'
 
 const Banner = () => {
     return (
-        <div class="hero min-h-screen bg-base-200">
+        <div class="hero min-h-screen bg-slate-700">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <img width={500} src={mypic} alt='' />
                 <div>

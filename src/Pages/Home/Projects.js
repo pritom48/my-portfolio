@@ -8,7 +8,7 @@ const Projects = () => {
         <div>
             <h1 className='text-center text-white font-bold text-5xl py-20'>My Projects</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-96 bg-slate-700 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={AiTools} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -19,7 +19,7 @@ const Projects = () => {
                         <button class="btn btn-outline"><a href="https://github.com/pritom48/ass-12-computer-tools">Github</a></button>
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-96 bg-slate-700 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={bicycle} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -30,7 +30,7 @@ const Projects = () => {
                         <button class="btn btn-outline"><a href="https://github.com/pritom48/ass-11-bicycle-house-client">Github</a></button>
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-96 bg-slate-700 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={photohunt} alt="Shoes" class="rounded-xl" />
                     </figure>
