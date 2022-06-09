@@ -33,7 +33,7 @@ const Navbar = () => {
             <div class="navbar-end">
                 <button
                     class="btn btn-outline">
-                    <a href={require("../img/PRITOM_DAS_JUINOR_WEB_DEVELOPER.pdf")} download="Pritom_Resume">Download Resume</a>
+                    <a className='text-white' href={require("../img/PRITOM_DAS_JUINOR_WEB_DEVELOPER.pdf")} download="Pritom_Resume">Download Resume</a>
                 </button>
 
             </div>

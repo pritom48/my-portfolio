@@ -11,7 +11,7 @@ const Services = () => {
                 <div>
                     <div class="card w-96 bg-slate-700 shadow-xl">
                         <figure><img src={uiux} alt="Shoes" /></figure>
-                        <div class="card-body">
+                        <div class="card-body text-white">
                             <h2 class="card-title text-2xl text-white">
                                 UI/UX Design
                             </h2>
@@ -25,7 +25,7 @@ const Services = () => {
                 <div>
                     <div class="card w-96 bg-slate-700 shadow-xl">
                         <figure><img src={webdev} alt="Shoes" /></figure>
-                        <div class="card-body">
+                        <div class="card-body text-white">
                             <h2 class="card-title text-2xl text-white">
                                 Web Development
                             </h2>
@@ -39,7 +39,7 @@ const Services = () => {
                 <div>
                     <div class="card w-96 bg-slate-700 shadow-xl">
                         <figure><img src={illas} alt="Shoes" /></figure>
-                        <div class="card-body">
+                        <div class="card-body text-white">
                             <h2 class="card-title text-2xl text-white">
                                 Illustration
                             </h2>
