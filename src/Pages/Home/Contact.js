@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRef } from 'react';
+import { toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
 import shortMsg from '../../img/shortMsg.jpg'
 
@@ -13,6 +14,7 @@ const Contact = () => {
         emailjs.sendForm('service_lptx48c', 'template_9ud2vtc', form.current, 'obQeI7HiojdykG-nQ')
             .then((result) => {
                 console.log(result.text);
+                toast.success('Your Message Send')
             }, (error) => {
                 console.log(error.text);
             });
