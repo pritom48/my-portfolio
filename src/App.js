@@ -5,6 +5,9 @@ import './App.css';
 import Home from './Pages/Home/Home';
 import Footer from './Shared/Footer';
 import Navbar from './Shared/Navbar';
+import ProjectsDetOne from './Pages/ProjectsDetailes/ProjectsDetOne';
+import ProjectsDetTwo from './Pages/ProjectsDetailes/ProjectsDetTwo';
+import ProjectsDetThree from './Pages/ProjectsDetailes/ProjectsDetThree';
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/projectsDetOne' element={<ProjectsDetOne></ProjectsDetOne>}></Route>
+        <Route path='/projectsDetTwo' element={<ProjectsDetTwo></ProjectsDetTwo>}></Route>
+        <Route path='/projectsDetThree' element={<ProjectsDetThree></ProjectsDetThree>}></Route>
       </Routes>
       <Footer></Footer>
       <ToastContainer />
