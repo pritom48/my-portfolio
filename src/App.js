@@ -8,6 +8,8 @@ import Navbar from './Shared/Navbar';
 import ProjectsDetOne from './Pages/ProjectsDetailes/ProjectsDetOne';
 import ProjectsDetTwo from './Pages/ProjectsDetailes/ProjectsDetTwo';
 import ProjectsDetThree from './Pages/ProjectsDetailes/ProjectsDetThree';
+import Blog from './Pages/Blog/Blog';
+import AboutMe from './Pages/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path='/projectsDetOne' element={<ProjectsDetOne></ProjectsDetOne>}></Route>
         <Route path='/projectsDetTwo' element={<ProjectsDetTwo></ProjectsDetTwo>}></Route>
         <Route path='/projectsDetThree' element={<ProjectsDetThree></ProjectsDetThree>}></Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='/aboutme' element={<AboutMe></AboutMe>}></Route>
       </Routes>
       <Footer></Footer>
       <ToastContainer />

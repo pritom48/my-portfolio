@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
 
     const manuitem = <>
-        <li><Link to='/'>Home</Link></li>
-        <li><a>Service</a></li>
-        <li><a>About Me</a></li>
+        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/blog'>Blog</NavLink></li>
+        <li><NavLink to='/aboutme'>About Me</NavLink></li>
         <li><a>Contact Me</a></li>
     </>
 

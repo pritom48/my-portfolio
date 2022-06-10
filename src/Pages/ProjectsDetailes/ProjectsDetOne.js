@@ -60,9 +60,9 @@ const ProjectsDetOne = () => {
                             <div class="badge badge-outline text-xl">JWT</div>
                         </div>
                         <div className='my-10'>
-                            <a className='btn btn-primary text-white' href="https://computer-tools-502a0.web.app/">Live Site</a>
-                            <a className='btn btn-primary text-white mx-3' href="https://github.com/pritom48/ass-12-computer-tools">Github Client</a>
-                            <a className='btn btn-primary text-white mx-3' href="https://github.com/pritom48/ass-12-computer-tool-server">Github Server</a>
+                            <a className='btn btn-primary text-white' target="_blank" href="https://computer-tools-502a0.web.app/">Live Site</a>
+                            <a className='btn btn-primary text-white mx-3' href="https://github.com/pritom48/ass-12-computer-tools" target="_blank">Github Client</a>
+                            <a className='btn btn-primary text-white mx-3' href="https://github.com/pritom48/ass-12-computer-tool-server" target="_blank">Github Server</a>
                         </div>
                     </div>
                 </div>

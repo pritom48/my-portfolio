@@ -62,9 +62,9 @@ const ProjectsDetTwo = () => {
 
                         </div>
                         <div className='my-10'>
-                            <a className='btn btn-primary text-white' href="https://bicycle-house-cda08.web.app/">Live Site</a>
-                            <a className='btn btn-primary text-white mx-3' href="https://github.com/pritom48/ass-11-bicycle-house-client">Github Client</a>
-                            <a className='btn btn-primary text-white mx-3' href="https://github.com/pritom48/ass-11-bicycle-house-server">Github Server</a>
+                            <a className='btn btn-primary text-white' target="_blank" href="https://bicycle-house-cda08.web.app/">Live Site</a>
+                            <a className='btn btn-primary text-white mx-3' target="_blank" href="https://github.com/pritom48/ass-11-bicycle-house-client">Github Client</a>
+                            <a className='btn btn-primary text-white mx-3' target="_blank" href="https://github.com/pritom48/ass-11-bicycle-house-server">Github Server</a>
                         </div>
                     </div>
                 </div>

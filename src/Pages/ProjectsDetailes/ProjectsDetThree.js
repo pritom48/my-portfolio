@@ -57,8 +57,8 @@ const ProjectsDetThree = () => {
 
                         </div>
                         <div className='my-10'>
-                            <a className='btn btn-primary text-white' href="https://photo-hunter-cb937.web.app/">Live Site</a>
-                            <a className='btn btn-primary text-white mx-3' href="https://github.com/pritom48/picture-hunt">Github</a>
+                            <a className='btn btn-primary text-white' target="_blank" href="https://photo-hunter-cb937.web.app/">Live Site</a>
+                            <a className='btn btn-primary text-white mx-3' target="_blank" href="https://github.com/pritom48/picture-hunt">Github</a>
                         </div>
                     </div>
                 </div>
