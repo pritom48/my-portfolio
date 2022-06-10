@@ -24,12 +24,12 @@ const Contact = () => {
         <div>
             <h1 className='text-center text-white font-bold text-5xl py-20'>Get in Touch</h1>
             <div>
-                <div class="hero min-h-screen bg-slate-700">
+                <div class="hero min-h-screen">
                     <div class="hero-content flex-col lg:flex-row-reverse">
                         <div class="text-center lg:text-left">
                             <img src={shortMsg} alt="" />
                         </div>
-                        <div class="card  flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <div class="card bg-slate-700 flex-shrink-0 w-full max-w-sm shadow-2xl">
                             <div class="card-body">
                                 <form ref={form} onSubmit={sendEmail}>
                                     <div class="form-control">
