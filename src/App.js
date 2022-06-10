@@ -10,6 +10,7 @@ import ProjectsDetTwo from './Pages/ProjectsDetailes/ProjectsDetTwo';
 import ProjectsDetThree from './Pages/ProjectsDetailes/ProjectsDetThree';
 import Blog from './Pages/Blog/Blog';
 import AboutMe from './Pages/AboutMe/AboutMe';
+import ContactMe from './Pages/ContactMe/ContactMe';
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
         <Route path='/projectsDetThree' element={<ProjectsDetThree></ProjectsDetThree>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/aboutme' element={<AboutMe></AboutMe>}></Route>
+        <Route path='/contactme' element={<ContactMe></ContactMe>}></Route>
       </Routes>
+
       <Footer></Footer>
       <ToastContainer />
     </div>

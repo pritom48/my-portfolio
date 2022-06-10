@@ -29,29 +29,29 @@ const Contact = () => {
                         <div class="text-center lg:text-left">
                             <img src={shortMsg} alt="" />
                         </div>
-                        <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <div class="card  flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                             <div class="card-body">
                                 <form ref={form} onSubmit={sendEmail}>
                                     <div class="form-control">
                                         <label class="label">
-                                            <span class="label-text">Name</span>
+                                            <span class="label-text text-white">Name</span>
                                         </label>
                                         <input type="text" name='name' placeholder="Your Name" class="input input-bordered" />
                                     </div>
                                     <div class="form-control">
                                         <label class="label">
-                                            <span class="label-text">Email</span>
+                                            <span class="label-text text-white">Email</span>
                                         </label>
                                         <input type="text" name='email' placeholder="email" class="input input-bordered" />
                                     </div>
                                     <div class="form-control">
                                         <label class="label">
-                                            <span class="label-text">Short Message</span>
+                                            <span class="label-text text-white">Short Message</span>
                                         </label>
                                         <textarea type="text" name='message' placeholder="Short Message" class="input input-bordered" />
                                     </div>
                                     <div class="form-control mt-6">
-                                        <button type='submit' value='send' class="btn btn-outline">Button</button>
+                                        <button type='submit' value='send' class="btn btn-outline text-white">Submit</button>
                                     </div>
                                 </form>
                             </div>

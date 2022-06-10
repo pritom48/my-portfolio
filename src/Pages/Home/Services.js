@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <div className=''>
             <h3 className='text-center text-white font-bold text-5xl py-20'>Services</h3>
-            <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-4'>
                 <div>
                     <div class="card w-96 bg-slate-700 shadow-xl">
                         <figure><img src={uiux} alt="Shoes" /></figure>
