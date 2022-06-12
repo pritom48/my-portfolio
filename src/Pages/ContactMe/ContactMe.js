@@ -1,6 +1,7 @@
 import React from 'react';
 import address from '../../img/icon/address.png'
 import email from '../../img/icon/email.png'
+import phone from '../../img/icon/phone2-removebg-preview.png'
 
 
 const ContactMe = () => {
@@ -12,6 +13,7 @@ const ContactMe = () => {
                     <div class="card-body lg:px-28">
                         <h2 class="card-title"> <img width={70} src={address} alt="" /> 43/10D, Swamibag, Dhaka</h2>
                         <h2 class="card-title"> <img width={50} className='ml-2' src={email} alt="" /> pritamdas41148@gmail.com</h2>
+                        <h2 class="card-title"> <img width={50} className='ml-2' src={phone} alt="" /> +8801632489477</h2>
                     </div>
                 </div>
             </div>

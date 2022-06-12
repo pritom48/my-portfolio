@@ -16,7 +16,7 @@ const Projects = () => {
                     <div class="card-body text-white">
                         <h2 class="card-title text-3xl text-white">AI Tools</h2>
                         <p>It is a tools manufacturer website. A user can buy any tool. Users can give a review that shows on the home page. Only an admin can make an admin.</p>
-                        <Link className='btn btn-outline text-white' to='/projectsDetOne'>Details</Link>
+                        <Link className='btn btn-primary text-white' to='/projectsDetOne'>Details</Link>
                     </div>
                 </div>
                 <div class="card w-96 bg-slate-700 shadow-xl">
@@ -26,7 +26,7 @@ const Projects = () => {
                     <div class="card-body text-white">
                         <h2 class="card-title text-3xl text-white">Bicycle House</h2>
                         <p>It’s a bicycle inventory management website. Where any valid user can update an inventory of bicycles.</p>
-                        <Link className='btn btn-outline text-white' to='/projectsDetTwo'>Details</Link>
+                        <Link className='btn btn-primary text-white' to='/projectsDetTwo'>Details</Link>
                     </div>
                 </div>
                 <div class="card w-96 bg-slate-700 shadow-xl">
@@ -36,7 +36,7 @@ const Projects = () => {
                     <div class="card-body text-white">
                         <h2 class="card-title text-3xl text-white">Picture Hunt</h2>
                         <p>It is an individual photographer's website. The photographer has him some service.  Firebase has been used to authenticate the user.</p>
-                        <Link className='btn btn-outline text-white' to='/projectsDetThree'>Details</Link>
+                        <Link className='btn btn-primary text-white' to='/projectsDetThree'>Details</Link>
                     </div>
                 </div>
             </div>

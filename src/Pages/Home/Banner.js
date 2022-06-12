@@ -2,6 +2,7 @@ import React from 'react';
 import mypic from '../../img/mypic.png'
 import facebook from '../../img/icon/facebook.png'
 import linkedin from '../../img/icon/linkedin1.png'
+import github from '../../img/icon/github-orange.png'
 
 const Banner = () => {
     return (
@@ -15,6 +16,7 @@ const Banner = () => {
                     <div className='flex mt-5'>
                         <a className='ml-2' target="_blank" href="https://www.linkedin.com/in/pritom-das/"> <img width={50} src={linkedin} alt="" /></a>
                         <a className='ml-2' target="_blank" href="https://www.facebook.com/profile.php?id=100023125147767"> <img width={50} src={facebook} alt="" /></a>
+                        <a className='ml-2' target="_blank" href="https://github.com/pritom48"> <img width={50} src={github} alt="" /></a>
 
                     </div>
                 </div>

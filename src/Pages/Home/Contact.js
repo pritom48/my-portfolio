@@ -51,7 +51,7 @@ const Contact = () => {
                                         <textarea type="text" name='message' placeholder="Short Message" class="input input-bordered" />
                                     </div>
                                     <div class="form-control mt-6">
-                                        <button type='submit' value='send' class="btn btn-outline text-white">Submit</button>
+                                        <button type='submit' value='send' class="btn btn-primary text-white">Submit</button>
                                     </div>
                                 </form>
                             </div>
