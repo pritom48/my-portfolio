@@ -17,7 +17,7 @@ const Banner = () => {
                             fontFamily: 'Red Hat Display',
                             color: 'orange',
                             fontWeight: 500,
-                            fontSize: '2.5em',
+                            fontSize: '2em',
                         }}
                         startDelay={''}
                         cursorColor="#ffff"
